@@ -4,8 +4,8 @@ import Card from "./Card";
 const Cards = props => {
   return (
     <div className="cards-container">
-      {this.props.cards.map(card => {
-        <card card={card} />;
+      {props.cards.map(card => {
+        <Card card={card} />;
       })}
     </div>
   );
